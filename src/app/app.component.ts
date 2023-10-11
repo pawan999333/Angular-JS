@@ -6,16 +6,34 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "hello";
-  data = 9;
+  // title = "hello";
+  // data = 9;
 
-  dataValue(){
-    return "function data";
-  }
+  // displayVal:string='';
 
-  getName(name:string, secondName:string){
-     alert(name);
-     alert(secondName);
+  // dataValue(){
+  //   return "function data";
+  // }
 
-  }
+  // getValue(val:string){
+  //   this.displayVal=val;
+  //   console.warn(val)
+  // }
+
+  // getData(val:string){
+  //   console.warn(val);
+  // }
+
+  // getName(name:string, secondName:string){
+  //    alert(name);
+  //    alert(secondName);
+  // }
+
+ title:string ="Angular";
+
+  // count:number=0;
+  // counter(type:string){
+
+  //   type==='add'?this.count++ : this.count--;
+  // }
 }
